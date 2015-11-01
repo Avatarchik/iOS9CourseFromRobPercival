@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Core_Data_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="udg-61-mhD">
+                                <rect key="frame" x="150" y="170" width="300" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CSK-0S-54X"/>
+                                    <constraint firstAttribute="width" constant="300" id="ojF-XF-wFy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mzy-B6-xK0">
+                                <rect key="frame" x="268" y="229" width="64" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="bak-Wk-jOX"/>
+                                    <constraint firstAttribute="width" constant="64" id="t0f-DG-3ru"/>
+                                </constraints>
+                                <state key="normal" title="Add User"/>
+                                <connections>
+                                    <action selector="addUserButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Myv-8z-rXk"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hMg-hO-vby">
+                                <rect key="frame" x="150" y="115" width="300" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Nu7-t9-HLj"/>
+                                    <constraint firstAttribute="height" constant="30" id="adS-uQ-x6j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zmp-Ea-eYs">
+                                <rect key="frame" x="150" y="267" width="300" height="100"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Zmp-Ea-eYs" secondAttribute="height" multiplier="3:1" id="JlB-MF-yi8"/>
+                                    <constraint firstAttribute="width" constant="300" id="dCU-OD-OQ3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63l-7I-BtC">
+                                <rect key="frame" x="266" y="393" width="69" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="IVc-LS-5Xj"/>
+                                    <constraint firstAttribute="height" constant="30" id="WgL-4D-MpN"/>
+                                </constraints>
+                                <state key="normal" title="List Users"/>
+                                <connections>
+                                    <action selector="listUsersButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ewR-hb-STV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3l-9x-GsJ">
+                                <rect key="frame" x="150" y="229" width="87" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="87" id="IyS-9h-RU2"/>
+                                    <constraint firstAttribute="height" constant="30" id="rcB-wf-eda"/>
+                                </constraints>
+                                <state key="normal" title="Update User"/>
+                                <connections>
+                                    <action selector="updateUserButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTF-x4-TCy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRM-js-AzM">
+                                <rect key="frame" x="367" y="229" width="85" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="Fpd-v6-5zY"/>
+                                    <constraint firstAttribute="height" constant="30" id="iUR-Iz-7nx"/>
+                                </constraints>
+                                <state key="normal" title="Search User"/>
+                                <connections>
+                                    <action selector="searchUserButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gYv-TI-Abh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3D-Qe-5e5">
+                                <rect key="frame" x="254" y="448" width="92" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="60z-xX-bMP"/>
+                                    <constraint firstAttribute="height" constant="30" id="jkG-wx-kA9"/>
+                                </constraints>
+                                <state key="normal" title="Remove User"/>
+                                <connections>
+                                    <action selector="removeUserButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jIr-aD-cdq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mzy-B6-xK0" firstAttribute="top" secondItem="udg-61-mhD" secondAttribute="bottom" constant="29" id="1er-gg-UwL"/>
+                            <constraint firstItem="udg-61-mhD" firstAttribute="top" secondItem="hMg-hO-vby" secondAttribute="bottom" constant="25" id="3CZ-Fm-nlJ"/>
+                            <constraint firstItem="Mzy-B6-xK0" firstAttribute="leading" secondItem="R3l-9x-GsJ" secondAttribute="trailing" constant="31" id="4X2-0e-WE7"/>
+                            <constraint firstItem="Zmp-Ea-eYs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L2S-eU-7JL"/>
+                            <constraint firstItem="hMg-hO-vby" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L7G-2h-dEY"/>
+                            <constraint firstItem="63l-7I-BtC" firstAttribute="top" secondItem="Zmp-Ea-eYs" secondAttribute="bottom" constant="26" id="OG0-8e-NIN"/>
+                            <constraint firstItem="Mzy-B6-xK0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-56" id="ROS-bP-XDM"/>
+                            <constraint firstItem="vRM-js-AzM" firstAttribute="leading" secondItem="Mzy-B6-xK0" secondAttribute="trailing" constant="35" id="Z85-8S-fjU"/>
+                            <constraint firstItem="R3l-9x-GsJ" firstAttribute="top" secondItem="udg-61-mhD" secondAttribute="bottom" constant="29" id="Zuv-Td-qdG"/>
+                            <constraint firstItem="Zmp-Ea-eYs" firstAttribute="top" secondItem="Mzy-B6-xK0" secondAttribute="bottom" constant="8" id="bWR-SN-9qG"/>
+                            <constraint firstItem="63l-7I-BtC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cvI-Ph-tRE"/>
+                            <constraint firstItem="udg-61-mhD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fcZ-hL-0MA"/>
+                            <constraint firstItem="V3D-Qe-5e5" firstAttribute="top" secondItem="63l-7I-BtC" secondAttribute="bottom" constant="25" id="owh-Df-cqv"/>
+                            <constraint firstItem="Mzy-B6-xK0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pCe-jh-we4"/>
+                            <constraint firstItem="vRM-js-AzM" firstAttribute="top" secondItem="udg-61-mhD" secondAttribute="bottom" constant="29" id="xyY-5Y-bSA"/>
+                            <constraint firstItem="V3D-Qe-5e5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zDg-iy-Cxl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="udg-61-mhD" id="Kh9-pi-YOf"/>
+                        <outlet property="userListLabel" destination="Zmp-Ea-eYs" id="SfV-Zf-h1p"/>
+                        <outlet property="usernameTextField" destination="hMg-hO-vby" id="uHL-Nt-TDQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="695" y="229"/>
+        </scene>
+    </scenes>
+</document>

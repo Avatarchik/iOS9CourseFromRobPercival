@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04425F161BDFFB6300F53D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04425F151BDFFB6300F53D07 /* AppDelegate.swift */; };
+		04425F181BDFFB6300F53D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04425F171BDFFB6300F53D07 /* ViewController.swift */; };
+		04425F1B1BDFFB6300F53D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04425F191BDFFB6300F53D07 /* Main.storyboard */; };
+		04425F1D1BDFFB6300F53D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04425F1C1BDFFB6300F53D07 /* Assets.xcassets */; };
+		04425F201BDFFB6300F53D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04425F1E1BDFFB6300F53D07 /* LaunchScreen.storyboard */; };
+		04425F311BDFFD3D00F53D07 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F2A1BDFFD3D00F53D07 /* Bolts.framework */; };
+		04425F321BDFFD3D00F53D07 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F2B1BDFFD3D00F53D07 /* Parse.framework */; };
+		04425F331BDFFD3D00F53D07 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F2C1BDFFD3D00F53D07 /* ParseCrashReporting.framework */; };
+		04425F351BDFFD3D00F53D07 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F2E1BDFFD3D00F53D07 /* ParseFacebookUtilsV4.framework */; };
+		04425F361BDFFD3D00F53D07 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F2F1BDFFD3D00F53D07 /* ParseTwitterUtils.framework */; };
+		04425F371BDFFD3D00F53D07 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F301BDFFD3D00F53D07 /* ParseUI.framework */; };
+		04425F391BDFFE6F00F53D07 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F381BDFFE6F00F53D07 /* AudioToolbox.framework */; };
+		04425F3B1BDFFE7A00F53D07 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F3A1BDFFE7A00F53D07 /* CFNetwork.framework */; };
+		04425F3D1BDFFE8200F53D07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F3C1BDFFE8200F53D07 /* CoreGraphics.framework */; };
+		04425F3F1BDFFE8C00F53D07 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F3E1BDFFE8C00F53D07 /* CoreLocation.framework */; };
+		04425F411BDFFE9400F53D07 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F401BDFFE9400F53D07 /* QuartzCore.framework */; };
+		04425F431BDFFEA000F53D07 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F421BDFFEA000F53D07 /* Security.framework */; };
+		04425F451BDFFEA900F53D07 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F441BDFFEA900F53D07 /* StoreKit.framework */; };
+		04425F471BDFFEB200F53D07 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F461BDFFEB200F53D07 /* SystemConfiguration.framework */; };
+		04425F491BDFFEBB00F53D07 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F481BDFFEBB00F53D07 /* libz.tbd */; };
+		04425F4B1BDFFEC500F53D07 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F4A1BDFFEC500F53D07 /* libsqlite3.tbd */; };
+		04425F581BE017FA00F53D07 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F551BE017FA00F53D07 /* FBSDKCoreKit.framework */; };
+		04425F591BE017FA00F53D07 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F561BE017FA00F53D07 /* FBSDKLoginKit.framework */; };
+		04425F5A1BE017FA00F53D07 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04425F571BE017FA00F53D07 /* FBSDKShareKit.framework */; };
+		047A45D71BE152B700AA50E9 /* facebook-login-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 047A45D61BE152B700AA50E9 /* facebook-login-button.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04425F121BDFFB6300F53D07 /* TinderClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04425F151BDFFB6300F53D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04425F171BDFFB6300F53D07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04425F1A1BDFFB6300F53D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04425F1C1BDFFB6300F53D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04425F1F1BDFFB6300F53D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04425F211BDFFB6400F53D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04425F2A1BDFFD3D00F53D07 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		04425F2B1BDFFD3D00F53D07 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		04425F2C1BDFFD3D00F53D07 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		04425F2E1BDFFD3D00F53D07 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		04425F2F1BDFFD3D00F53D07 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		04425F301BDFFD3D00F53D07 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		04425F381BDFFE6F00F53D07 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		04425F3A1BDFFE7A00F53D07 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		04425F3C1BDFFE8200F53D07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04425F3E1BDFFE8C00F53D07 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04425F401BDFFE9400F53D07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04425F421BDFFEA000F53D07 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		04425F441BDFFEA900F53D07 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		04425F461BDFFEB200F53D07 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04425F481BDFFEBB00F53D07 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		04425F4A1BDFFEC500F53D07 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		04425F541BE014E700F53D07 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		04425F551BE017FA00F53D07 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		04425F561BE017FA00F53D07 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		04425F571BE017FA00F53D07 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		047A45D61BE152B700AA50E9 /* facebook-login-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-login-button.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04425F0F1BDFFB6300F53D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04425F4B1BDFFEC500F53D07 /* libsqlite3.tbd in Frameworks */,
+				04425F491BDFFEBB00F53D07 /* libz.tbd in Frameworks */,
+				04425F471BDFFEB200F53D07 /* SystemConfiguration.framework in Frameworks */,
+				04425F451BDFFEA900F53D07 /* StoreKit.framework in Frameworks */,
+				04425F431BDFFEA000F53D07 /* Security.framework in Frameworks */,
+				04425F581BE017FA00F53D07 /* FBSDKCoreKit.framework in Frameworks */,
+				04425F5A1BE017FA00F53D07 /* FBSDKShareKit.framework in Frameworks */,
+				04425F411BDFFE9400F53D07 /* QuartzCore.framework in Frameworks */,
+				04425F3F1BDFFE8C00F53D07 /* CoreLocation.framework in Frameworks */,
+				04425F3D1BDFFE8200F53D07 /* CoreGraphics.framework in Frameworks */,
+				04425F3B1BDFFE7A00F53D07 /* CFNetwork.framework in Frameworks */,
+				04425F591BE017FA00F53D07 /* FBSDKLoginKit.framework in Frameworks */,
+				04425F391BDFFE6F00F53D07 /* AudioToolbox.framework in Frameworks */,
+				04425F321BDFFD3D00F53D07 /* Parse.framework in Frameworks */,
+				04425F331BDFFD3D00F53D07 /* ParseCrashReporting.framework in Frameworks */,
+				04425F371BDFFD3D00F53D07 /* ParseUI.framework in Frameworks */,
+				04425F311BDFFD3D00F53D07 /* Bolts.framework in Frameworks */,
+				04425F361BDFFD3D00F53D07 /* ParseTwitterUtils.framework in Frameworks */,
+				04425F351BDFFD3D00F53D07 /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04425F091BDFFB6300F53D07 = {
+			isa = PBXGroup;
+			children = (
+				04425F141BDFFB6300F53D07 /* TinderClone */,
+				04425F131BDFFB6300F53D07 /* Products */,
+				04425F4C1BDFFEF800F53D07 /* Framework */,
+			);
+			sourceTree = "<group>";
+		};
+		04425F131BDFFB6300F53D07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04425F121BDFFB6300F53D07 /* TinderClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04425F141BDFFB6300F53D07 /* TinderClone */ = {
+			isa = PBXGroup;
+			children = (
+				04425F151BDFFB6300F53D07 /* AppDelegate.swift */,
+				04425F171BDFFB6300F53D07 /* ViewController.swift */,
+				04425F191BDFFB6300F53D07 /* Main.storyboard */,
+				04425F1C1BDFFB6300F53D07 /* Assets.xcassets */,
+				047A45D61BE152B700AA50E9 /* facebook-login-button.png */,
+				04425F1E1BDFFB6300F53D07 /* LaunchScreen.storyboard */,
+				04425F541BE014E700F53D07 /* Bridging-Header.h */,
+				04425F211BDFFB6400F53D07 /* Info.plist */,
+			);
+			path = TinderClone;
+			sourceTree = "<group>";
+		};
+		04425F291BDFFD3D00F53D07 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				04425F2A1BDFFD3D00F53D07 /* Bolts.framework */,
+				04425F2B1BDFFD3D00F53D07 /* Parse.framework */,
+				04425F2C1BDFFD3D00F53D07 /* ParseCrashReporting.framework */,
+				04425F2E1BDFFD3D00F53D07 /* ParseFacebookUtilsV4.framework */,
+				04425F2F1BDFFD3D00F53D07 /* ParseTwitterUtils.framework */,
+				04425F301BDFFD3D00F53D07 /* ParseUI.framework */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		04425F4C1BDFFEF800F53D07 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				04425F531BE00EC100F53D07 /* FaceBook */,
+				04425F291BDFFD3D00F53D07 /* Parse */,
+				04425F4A1BDFFEC500F53D07 /* libsqlite3.tbd */,
+				04425F481BDFFEBB00F53D07 /* libz.tbd */,
+				04425F461BDFFEB200F53D07 /* SystemConfiguration.framework */,
+				04425F441BDFFEA900F53D07 /* StoreKit.framework */,
+				04425F421BDFFEA000F53D07 /* Security.framework */,
+				04425F401BDFFE9400F53D07 /* QuartzCore.framework */,
+				04425F3E1BDFFE8C00F53D07 /* CoreLocation.framework */,
+				04425F3C1BDFFE8200F53D07 /* CoreGraphics.framework */,
+				04425F3A1BDFFE7A00F53D07 /* CFNetwork.framework */,
+				04425F381BDFFE6F00F53D07 /* AudioToolbox.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		04425F531BE00EC100F53D07 /* FaceBook */ = {
+			isa = PBXGroup;
+			children = (
+				04425F551BE017FA00F53D07 /* FBSDKCoreKit.framework */,
+				04425F561BE017FA00F53D07 /* FBSDKLoginKit.framework */,
+				04425F571BE017FA00F53D07 /* FBSDKShareKit.framework */,
+			);
+			name = FaceBook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04425F111BDFFB6300F53D07 /* TinderClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04425F241BDFFB6400F53D07 /* Build configuration list for PBXNativeTarget "TinderClone" */;
+			buildPhases = (
+				04425F0E1BDFFB6300F53D07 /* Sources */,
+				04425F0F1BDFFB6300F53D07 /* Frameworks */,
+				04425F101BDFFB6300F53D07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinderClone;
+			productName = TinderClone;
+			productReference = 04425F121BDFFB6300F53D07 /* TinderClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04425F0A1BDFFB6300F53D07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jorge Bastos";
+				TargetAttributes = {
+					04425F111BDFFB6300F53D07 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = M2YLC45JRA;
+					};
+				};
+			};
+			buildConfigurationList = 04425F0D1BDFFB6300F53D07 /* Build configuration list for PBXProject "TinderClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04425F091BDFFB6300F53D07;
+			productRefGroup = 04425F131BDFFB6300F53D07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04425F111BDFFB6300F53D07 /* TinderClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04425F101BDFFB6300F53D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04425F201BDFFB6300F53D07 /* LaunchScreen.storyboard in Resources */,
+				047A45D71BE152B700AA50E9 /* facebook-login-button.png in Resources */,
+				04425F1D1BDFFB6300F53D07 /* Assets.xcassets in Resources */,
+				04425F1B1BDFFB6300F53D07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04425F0E1BDFFB6300F53D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04425F181BDFFB6300F53D07 /* ViewController.swift in Sources */,
+				04425F161BDFFB6300F53D07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04425F191BDFFB6300F53D07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04425F1A1BDFFB6300F53D07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04425F1E1BDFFB6300F53D07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04425F1F1BDFFB6300F53D07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04425F221BDFFB6400F53D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: -013D47B3CF6.TinderClone";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04425F231BDFFB6400F53D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: -013D47B3CF6.TinderClone";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04425F251BDFFB6400F53D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Parse",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TinderClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-013D47B3CF6.TinderClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/TinderClone/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		04425F261BDFFB6400F53D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Parse",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TinderClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-013D47B3CF6.TinderClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/TinderClone/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04425F0D1BDFFB6300F53D07 /* Build configuration list for PBXProject "TinderClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04425F221BDFFB6400F53D07 /* Debug */,
+				04425F231BDFFB6400F53D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04425F241BDFFB6400F53D07 /* Build configuration list for PBXNativeTarget "TinderClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04425F251BDFFB6400F53D07 /* Debug */,
+				04425F261BDFFB6400F53D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04425F0A1BDFFB6300F53D07 /* Project object */;
+}
